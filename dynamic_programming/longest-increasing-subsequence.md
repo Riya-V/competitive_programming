@@ -8,7 +8,7 @@ int calc(int a[],int n)
 {
 
 int lis[n];
-int a[0]=1;
+int lis[0]=1;
 
 for(int i=1;i<n;i++)
 {
