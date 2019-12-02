@@ -40,7 +40,7 @@ This brute force implementation uses the recurcive mechanism.
 
 **implementation:**
 
-```
+```cpp
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -75,7 +75,7 @@ so what we have to do is that ,
 
 The Dynamic programming approach:
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 int dp-count(int n) 
