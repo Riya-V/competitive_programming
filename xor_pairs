@@ -1,0 +1,40 @@
+// find the pairs of an array that have the xor equal to a number given as input.
+
+```cpp
+#define for(i,n)  for(int i=0;i<n;i++)
+void xor_pair(int a[], int n, int x)
+{
+
+int res=0;
+
+unordered_set<int>s;
+
+for(i,n)
+{
+
+if(s.find(s.find(x^a[i])!=s.end())
+{res++;
+}
+
+s.insert(a[i]);
+}
+
+void main()
+{
+
+int a[100];
+int n;
+cin>>n;
+cin>>x;
+for(i,n)
+{
+cin>>a[i];
+
+}
+cout<<"the number of pairs ="<<xor_pair(a,n,x);
+}
+
+
+
+
+
