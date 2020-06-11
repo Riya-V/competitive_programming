@@ -52,7 +52,7 @@ for(int i=1;i<=n;i++)
 	}
 	
 }
-if(cnt==1 && (n-e==1))
+if(cnt==1 && (n-e)==1)
 cout<<"YES";
 else
 cout<<"NO";
